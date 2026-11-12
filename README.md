@@ -1,5 +1,7 @@
 # Bertrand Beaujard
 
+Hello à tous !
+
 **Développeur full stack C# / .NET en formation** · Licence pro Métiers de l'informatique à UHA 4.0 (Université de Haute-Alsace, Mulhouse)
 
  **Je cherche un stage de 6 mois en développement logiciel à partir de janvier 2027**.
