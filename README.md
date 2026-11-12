@@ -36,7 +36,7 @@ Ancien technicien supérieur en chimie et biotechnologie (5 ans en laboratoire +
 Jeu de trading sur mobile : les joueurs achètent et revendent des ressources dont le prix évolue en continu, et un administrateur fixe les règles du marché (taxes, blocages, limites de quantité).
 - API REST **ASP.NET Core (.NET 8)** + **MongoDB**, architecture en couches (Shared / Core / Server / Tests / Mobile)
 - Authentification JWT avec refresh tokens, erreurs métier renvoyées en `ProblemDetails`
-- **72 tests** (dont 64 tests d'intégration sur une vraie base MongoDB, sans mocks)
+- Test d'integration couvrant l'API et la logique métier.
 - Pipeline **GitLab CI** (build, contrôle du formatage, tests, déploiement), analyse **SonarQube** via GitHub Actions, et déploiement automatique sur un serveur de l'UHA avec **Docker Compose**
 - En cours : client **.NET MAUI** (Android) avec base **SQLite** locale, utilisable hors ligne et synchronisé avec le serveur
 
